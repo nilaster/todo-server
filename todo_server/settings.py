@@ -29,6 +29,7 @@ ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
     "localhost:3000",
+    "todo-server-dev.eu-west-2.elasticbeanstalk.com",
 ]
 
 
