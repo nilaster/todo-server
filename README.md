@@ -1,7 +1,7 @@
 # To-Do Manager Server
 
 This is a simple API server to track your To Do tasks.
-It is built as a backend service for [this]() React application.
+It is built as a backend service for [this React application](https://github.com/nilaster/todo_website).
 
 ## Installation
 
@@ -53,3 +53,7 @@ python manage.py runserver
 ```
 
 This will start the Django development server, usually accessible at http://127.0.0.1:8000/.
+
+## Deployment
+
+This server leverages GitHub Actions for a streamlined deployment process to AWS Elastic Beanstalk. Any push to the master branch will automatically trigger a build and deployment workflow.
