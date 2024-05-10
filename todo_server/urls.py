@@ -8,5 +8,5 @@ router.register("tasks", TaskViewSet)
 
 
 urlpatterns = [
-    path("/", HealthCheckView.as_view(), name="health-check"),
+    path("", HealthCheckView.as_view(), name="health-check"),
 ] + router.urls
