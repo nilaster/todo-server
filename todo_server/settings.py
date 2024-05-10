@@ -31,7 +31,7 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost:3000",
     "todo-server-dev.eu-west-2.elasticbeanstalk.com",
-    "master.d3nkigyyjitc2u.amplifyapp.com",
+    "master.d2cnc16o5lf1bi.amplifyapp.com",
 ]
 
 
@@ -147,5 +147,5 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://master.d3nkigyyjitc2u.amplifyapp.com",
+    "https://master.d2cnc16o5lf1bi.amplifyapp.com/",
 ]
